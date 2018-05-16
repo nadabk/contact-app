@@ -7,7 +7,9 @@ class App extends Component {
   render() {
     return (
       <Router>
+
         <div className="App">
+      
           <Link to='/contacts'>
             <input type='button' value='contact list' />
           </Link>
